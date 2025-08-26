@@ -1,5 +1,5 @@
 ##default technical scoreboard
-scoreboard objectives add eden.technical dummy
+scoreboard objectives add master_trades.technical dummy
 
 ##init schedules
 schedule function master_trades:run 2s

@@ -1,5 +1,6 @@
 {
     "values":[
-      "master_trades:load"
+      "master_trades:load",
+      "master_trades:run"
     ]
   }

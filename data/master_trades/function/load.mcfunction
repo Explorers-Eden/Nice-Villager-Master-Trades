@@ -1,8 +1,8 @@
 ##default technical scoreboard
 scoreboard objectives add master_trades.technical dummy
 
-##init schedules
-schedule function master_trades:run 2s
-
 ##remove temp storage
 data remove storage eden:temp master_trades
+
+##set data pack version
+data modify storage eden:datapack nice_villager_master_trades.version set value "1.3"
